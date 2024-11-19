@@ -20,7 +20,7 @@ def menu():
 
 
 def main():
-    joke_list = [["What does a baby computer call his father?", "Data"],
+    joke_list = [
                  ["What do a tick and the Eiffel Tower have in common?","They're both Paris sites."]]
             
     menu()

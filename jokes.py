@@ -17,12 +17,11 @@ def menu():
     print("list - list all jokes")
     print("exit - exit the program")
 
-def load_jokes_from_file():
-    pass
 
 
 def main():
-    joke_list = load_jokes_from_file()
+    joke_list = [["What does a baby computer call his father?", "Data"],
+                 ["What do a tick and the Eiffel Tower have in common?","They're both Paris sites."]]
             
     menu()
 

@@ -12,16 +12,18 @@ def list_jokes(joke_list):
         print(f"{i}. {joke[0]}")
 
 def menu():
+    print("Welcome to Eric's awesome jokes!")
     print("Please make a selection")
     print("tell - tell a joke")
     print("list - list all jokes")
     print("exit - exit the program")
 
+def load_jokes_from_file():
+    pass
 
 
 def main():
-    joke_list = [
-                 ["What do a tick and the Eiffel Tower have in common?","They're both Paris sites."]]
+    joke_list = load_jokes_from_file()
             
     menu()
 
